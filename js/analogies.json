@@ -1,0 +1,66 @@
+[{
+        "num": "1",
+        "si": "UNE CRYPTOMONNAIE",
+        "serais": "LE CHAINLINK",
+        "img": "images/chainlink.jpg",
+        "alt": "Image d'illustration du CHAINLINK",
+        "txt": "Car, dans un premier temps le Chainlink est la première cryptomonnaie que j'ai acheté et, dans un deuxième temps car le Chainlink est un excellent projet. En effet, il a pour but de créer un système d'oracle décentralisé qui va permettre d'être manipulé et qui peut nous fournir des informations exactes même si l'un d'eux dysfonctionnait. Un concept révolutionnaire auquel j'adhère complètement."
+    },
+
+    {
+        "num": "2",
+        "si": "UN SYSTÈME D'EXPLOITATION",
+        "serais": "MANJARO",
+        "img": "images/manjaro.jpg",
+        "alt": "Image d'illustration de MANJARO",
+        "even": "even",
+        "txt": "Manjaro est une distribution Linux basée sur Arch Linux qui propose de nombreux environnements de bureau comme Xfce, KDE, GNOME. C'est un système d'exploitation open source pour ordinateurs personnels simple d'utilisation et dont je me sers au quotidien."
+    },
+
+    {
+        "num": "3",
+        "si": "UN FILM",
+        "serais": "MATRIX",
+        "img": "images/matrix.jpg",
+        "alt": "Image d'illustration de MATRIX",
+        "txt": "Car c'est un film que j'aime beaucoup, en effet pour une production de 1999 je trouve qu'il est très bien réalisé. Thomas Anderson est un programmeur anonyme dans un service administratif cependant,il devient Néo la nuit venue. Sous ce pseudonyme, il est l'un des pirates les plus recherchés du cyber-espace. À cheval entre deux mondes, Néo est assailli par d'étranges songes et messages cryptés provenant d'un certain Morpheus. Celui-ci l'exhorte à aller au-delà des apparences et à trouver la réponse à la question qui hante constamment ses pensées : qu'est-ce que la matrice ?"
+    },
+
+    {
+        "num": "4",
+        "si": "UN ALBUM",
+        "serais": "DANS LA LÉGENDE",
+        "img": "images/danslalegende.jpg",
+        "alt": "Image d'illustration de DANS LA LÉGEND",
+        "even": "even",
+        "txt": "Dans la légende est le deuxième album du duo le plus iconic du rap français, PNL. Sorti le 16 septembre 2016 sous le label QLF Records, il s'agit de l'un des meilleurs albums de leur carrière à mon sens, en effet, l'ambiance et le travail qui en découle m'a beaucoup inspiré ces dernières années. Cependant, cela ne retire en rien la qualité de leurs précédents projets."
+    },
+
+    {
+        "num": "5",
+        "si": "UNE PLANÈTE",
+        "serais": "NEPTUNE",
+        "img": "images/neptune.jpg",
+        "alt": "Image d'illustration de NEPTUNE",
+        "txt": "J'aime beaucoup Neptune car, dans un premier temps c'est une planète avec une apparence très particulière, sa teinte bleutée et tachetée de blanc me rappelle mes couleurs favorites. De plus, Neptune est la huitième planète par ordre d'éloignement au Soleil et la plus éloignée connue du Système solaire, le fait qu'on ne puisse pas la voir à l'oeil nu lui rajoute une part de mystère que j'apprécie. Enfin, elle orbite autour du Soleil à une distance d'environ 30,1 UA, avec une excentricité orbitale moitié moindre que celle de la Terre et, sa période de révolution de 164,79 ans."
+    },
+
+    {
+        "num": "6",
+        "si": "UNE CONSOLE",
+        "serais": "LA NINTENDO SNES",
+        "img": "images/snes.jpg",
+        "alt": "Image d'illustration de LA NINTENDO SNES",
+        "even": "even",
+        "txt": "La Super Nintendo Entertainment System souvent appelée Super NES ou SNES, est une console de jeux vidéo du constructeur japonais Nintendo commercialisée à partir de novembre 1990. J'ai choisi de mettre cette console dans mon portrait chinois car, elle me procure de la nostalgie. En effet, c'est la première console que j'ai eue et elle me rappelle pleins de souvenirs d'enfance auquels je tiens."
+    },
+
+    {
+        "num": "7",
+        "si": "UN JEU VIDÉO",
+        "serais": "CALL OF DUTY: BLACK OPS II",
+        "img": "images/bo2.jpg",
+        "alt": "Image d'illustration de CALL OF DUTY: BLACK OPS II",
+        "txt": "Call of Duty: Black Ops II est un jeu vidéo de tir à la première personne développé par Treyarch et édité par Activision, sorti le 13 novembre 2012 sur les old gen. Je l'ai choisi car en plus d'être le jeu auquel je suis le plus attaché, je trouve que c'est le meilleur de toute la Saga."
+    }
+]

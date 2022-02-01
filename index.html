@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Class scroll qui s'enlève après le chargement pour ne pas pouvoir scroll pendant le chargement -->
+<html lang="fr" class="scroll">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Balise pour mettre la description de la page -->
+    <meta name="description" content="Site du portrait chinois de driss benadjal dans le cadre de la SAÉ 105.">
+
+    <!-- Balise pour le titre de la page -->
+    <title>Portrait Chinois Benadjal Driss</title>
+
+    <!-- Balise pour lié mon fichier html au fichier css -->
+    <link rel="stylesheet" media="screen" href="css/style.css">
+
+    <!-- Balise pour la favicon de ma page -->
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/jpg">
+
+    <!-- Balises pour la google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Cacher le curseur sur télephone-->
+    <div class="curseur-none-mobile">
+        <!--Curseur personnaliser en js-->
+        <div class="curseur"></div>
+        <div class="curseur2"></div>
+    </div>
+    <!--Fin curseur-->
+
+    <!--Debut du chargement -->
+    <div class="chargement">
+        <div class="cercle-contoure">
+            <div class="cercle loader"></div>
+        </div>
+    </div>
+    <!-- Fin du chargement au bout de 3500ms-->
+
+    <!-- Mon nom prénom et les mentions légales qui reste en position fixed avec un rotate pour etre au extremiter de l'ecran sans géner le naviguation-->
+    <button class="nom">Driss Benadjal</button>
+    <button class="legale" id="volet-btn">Mentions Légales</button>
+    <!-- Popup cacher qui s'active après avoir cliquer sur "mentions légales" -->
+    <div class="volet volet-invisible" id="volet">
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+            <h1> Mentions Légales</h1>
+            <p>Informations Dévellopeur : Projet SAÉ 105 réalisé par Driss Benadjal <br> 2 rue Albert Einstein, 77420 Champs-sur-Marne, France <br> Conception graphique et images : https://unsplash.com/ pour le fond, Deviantart pour les illustrations.
+                <br> Informations hébergeur : <br> Identité : Université Gustave Eiffel <br> Adresse : 2 rue Albert Einstein, 77420 Champs-sur-Marne, France <br> Téléphone : 01 60 95 75 00 <br> Adresse mail : webmaster@univ-eiffel.fr <br> Conformément
+                à l'article 15 du Règlement général sur la protection des données (RGPD) du 27 avril 2016, vous disposez d'un droit d'accès aux informations vous concernant. Si vous trouvez que ces informations sont incorrectes, l'article. <br> 16 du
+                RGPD vous permet de les modifier ou de les supprimer. Dans ce cas, merci de contacter le Directeur de la Communication : com@univ-eiffel.fr. <br> Pour toute question relative à la collecte ou au traitement de vos données personnelles par
+                le site web, vous pouvez contacter le respnsable de la protection des données du projet : philippe.gambette@univ-eiffel.fr. <br> Les fichiers détenus par l'Université Gustave Eiffel et Philippe Gambette qui comportent des données à caractère
+                personnel ne seront jamais transmis à des tiers et ne feront jamais l'objet d'une commercialisation. <br> Lors de la création de votre propre analogie, vos informations seront envoyées dans une base de données. Pour les supprimer veuillez
+                contacter philippe.gambette@univ-eiffel.fr. Les données seront supprimées durant l’été qui suivra de janvier 2022.
+        </div>
+    </div>
+    <!-- Fin du Popup -->
+    <!-- Fin nom prénom et les mentions légales-->
+
+
+    <!-- Déclaration du header utilisation du hedear car j'ai utilisé les scroll-snap-type pour avoir un scroll fluide qui lock et qui commence à la première section sans passer par du javascript-->
+    <section class="banner">
+        <h1>PORTRAIT CHINOIS</h1>
+        <!-- Flèche qui permet de scroll vers le bas et qui permet de commencer à explorer mon portrait chinois-->
+        <a class="flechebas" href="#start">
+            <ion-icon name="chevron-down-outline" class="flechebas"></ion-icon>
+        </a>
+        <!-- Fin de la flèche -->
+        <!-- Info bulle qui permet de quabd on passe la souris au dessus d'afficher la span et dans d'afficher comment fonctionne mon portrait chinois -->
+        <div class="infobulle"> ?
+            <div class="info">QU'EST CE QUE UN PORTRAIT CHINOIS ?
+                <p>Un portrait chinois est un jeu littéraire qui consiste à décrire des aspects de notre personnalité et nos goûts en nous identifiant à des objets, des lieux, des musiques, des films etc sous forme de phrase : “ Si j’étais …, je serais …
+                    ”. Ici, le l’objectif était d’en réaliser un portrait chinois sous forme d'un site web en utilisant HTML, CSS, Javascript avec 7 catégories différentes. Tout à la fin vous pourrez tenter l'experience.</p>
+                <h2>BONNE LECTURE !</h2>
+            </div>
+        </div>
+        <!-- Fin de l'info bulle -->
+    </section>
+    <!-- Fin du header -->
+
+    <!-- Début de la balise main la où il va y avoir tout le contenu de mon portrait chinois injecter en javascript avec plusieur section -->
+    <main id="start">
+
+    </main>
+    <!-- Fin du de la balise main -->
+
+    <!-- Début de la section pour le formulaire et de la ou va s'inséré la nouvelle section que vous pouvez créer -->
+    <section class="bg-section">
+        <!-- Début du formulaire -->
+        <form id="form" method="GET" action="">
+            <h2>CRÉEZ VOTRE PAGE !</h2>
+            <div>
+                <input name="si" id="si" type="text" placeholder="Si j'étais (article + mot)" maxlength="15" required>
+            </div>
+            <div>
+                <input name="serais" id="serais" type="text" placeholder="Je serais (article + mot)" maxlength="28" required>
+            </div>
+            <div>
+                <textarea name="justification" id="justification" placeholder="Justification" maxlength="650" required></textarea>
+            </div>
+            <div>
+                <input name="image" id="image" type="text" placeholder="Image (URL)" required>
+            </div>
+            <div>
+                <input name="mail" id="mail" type="mail" placeholder="Votre Email" required>
+            </div>
+            <div>
+                <input name="button" id="button" type="button" value="Envoyez">
+            </div>
+        </form>
+        <!-- Fin du formulaire -->
+        <!-- Boutton pour faire ré apparaitre le formulaire -->
+        <div class="modif-form-invisible modif-form" id="modifform"> MODIFIER </div>
+        <!-- Fin du Boutton -->
+    </section>
+    <!-- Fin de la section pour le formulaire -->
+
+
+
+    <!-- JS POUR L'ICON DE LA FLECHE -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Mon JS -->
+    <script src="js/script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/127738/OrbitControls.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/127738/perlin.js'></script>
+</body>
+
+</html>
